@@ -3,8 +3,6 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth import  login, logout
 from .EmailBackEnd import EmailBackEnd
 from django.contrib import messages
-def showDemoPage(request):
-	return render(request,'demo.html')
 
 def showLoginPage(request):
 	return render(request,'login_page.html')

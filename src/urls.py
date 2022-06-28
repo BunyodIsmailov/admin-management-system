@@ -21,7 +21,6 @@ from student_management_system import views, HodViews
 
 
 urlpatterns = [
-    path('demo/',views.showDemoPage),
     path('admin/', admin.site.urls),
     path('', views.showLoginPage),
     path('doLogin',views.doLogin),
